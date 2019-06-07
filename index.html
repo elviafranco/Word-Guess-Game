@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <!-- Link to Reset CSS -->
+     <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Link to Font -->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!--CSS Style Sheet-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>Word Guess Game</title>
+</head>
+
+<body>
+    <div>
+        <h1>Hangman:</h1>
+        <h2>Arcade Video Games</h2><br>
+        <p>Press any key to get started!</p>
+    </div>
+
+    <img src="assets/images/serveimage.png" class="center" alt="Your Name">
+
+    <table style="text-align:center">
+        <tr>
+            <th>Current Word:</th>
+        </tr>
+        <tr>
+            <th>
+                <div id="underScores"></div>
+            </th>
+        </tr>
+    </table><br>
+
+
+    <table style="text-align:center">
+        <tr>
+            <th>Wins:</th>
+            <th>
+                <div id="win"></div>
+            </th>
+        </tr>
+        <tr>
+            <td>Letters Already Guessed:</td>
+            <td>
+                <div id="guess"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>Number of Guesses Remaining:</td>
+            <td>
+                <div id="remaining"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>Losses:</td>
+            <td>
+                <div id="losses"></div>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Link to JavaScript -->
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
