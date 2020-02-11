@@ -1,13 +1,18 @@
 # Word-Guess-Game
 
-What is this repo or project? 
-This is Word Guess Game (or Hangman game) created by Elvia Franco for UAGIL201905FSF2. 
+Word Guess is a arcade game themed application that runs in the browser and features CSS styling to reflect a fun and retro theme. The Word Guess game encourages the user to press any key to guess the current word. The user will only have 10 guesses. 
 
-What the project does and how does it work?
-This project, demonstrated in (index.html) displays a Hangman game, encouraging the user to press any key to guess the current word. The user will only have 10 guesses. 
+# Motivation
+To improve my understanding and application of JavaScript key events and functions (with if/else statements) to deliever a working and playable game. 
 
-Who maintains and contributes to the project.
-Elvia Franco. 
+# Tech/framework used
 
-What is the goal of this project?
-To introduce the creator to JavaScript development. 
+Built with:
+* HTML/CSS
+* JavaScript 
+
+# Link
+https://elviafranco.github.io/Word-Guess-Game/
+
+
+
